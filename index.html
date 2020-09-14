@@ -12,6 +12,16 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
+	<style>
+		
+			@media only screen and (max-width: 450px) {
+				.project .row {
+					display: flex;
+					flex-direction: column;
+				}
+			
+		}
+	</style>
 	<body class="is-preload">
 
 		<!-- Wrapper-->
@@ -33,11 +43,16 @@
 							<article id="home" class="panel intro">
 								<header>
 									<h1>Tariqnawaz Shaikh</h1>
-									<p>Senior Software Engineer</p>
+									<p style="margin-left: 4px;"> Software Engineer</p>
+									<p>
+										<a href="https://github.com/Tariqnawaz" target="_blank"><i class="fab fa-github-square"></i></a>&nbsp;
+										<a href="https://www.linkedin.com/in/tariqnawaz-shaikh/" target="_blank"><i class="fab fa-linkedin"></i></a>&nbsp;
+										<!-- <a href="https://github.com/Tariqnawaz" target="_blank"><i class="fab fa-facebook-square"></i></a> -->
+									</p>
 								</header>
-								<a href="#work" class="jumplink pic">
-									<span class="arrow icon solid fa-chevron-right"><span>See my work</span></span>
-									<img src="images/me.jpg" alt="" />
+								<a href="#" class="jumplink pic">
+									<!-- <span class="arrow icon solid fa-chevron-right"><span>See my work</span></span> -->
+									<img src="images/me.jpg" alt="" style="padding: 0.5px;"/>
 								</a>
 							</article>
 
@@ -49,24 +64,19 @@
 								<section>
 									<div class="row">
 											<p>
-													Phasellus enim sapien, blandit ullamcorper elementum eu, condimentum eu elit.
-													Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
-													luctus elit eget interdum.
-												</p>
+												My name's Tariqnawaz. I'm a full stack developer with over 7 years of experience based in Dubai, UAE.
+											</p>
 									</div>
 									<div class="row">
 											<p>
-													Phasellus enim sapien, blandit ullamcorper elementum eu, condimentum eu elit.
-													Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
-													luctus elit eget interdum.
-												</p>
+												There’s nothing I enjoy more than designing and developing good application/websites.
+												I’ve spent many years trying to perfect what I do and while I’ll never be perfect, I do my best to come close.
+											</p>
 									</div>
 									<div class="row">
 											<p>
-													Phasellus enim sapien, blandit ullamcorper elementum eu, condimentum eu elit.
-													Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
-													luctus elit eget interdum.
-												</p>
+												If you’ve got a project you’d like to work on with me just get in touch and we can get to work!
+											</p>
 									</div>
 								</section>
 								
@@ -76,19 +86,21 @@
 						<!-- Work -->
 							<article id="work" class="panel">
 								<header>
-									<h2>Work</h2>
+									<h2>Projects</h2>
 								</header>
 								<p>
-									Phasellus enim sapien, blandit ullamcorper elementum eu, condimentum eu elit.
-									Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
-									luctus elit eget interdum.
+									<!-- I have been working with enterprises applications i.e of client project  -->
+									<!-- Below are some project. -->
 								</p>
-								<section>
+								<section class="project">
 									<div class="row">
-										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="images/pic01.jpg" alt=""></a>
+										<div class="col-6 col-12-small">
+											<a href="https://fir-basics-99.firebaseapp.com/" target="_blank" class="image fit"><img src="images/protfolio-pic-connet-mind-min.jpg" alt="connect mind"></a>
 										</div>
-										<div class="col-4 col-6-medium col-12-small">
+										<div class="col-6 col-12-small">
+											<a href="https://al-sadeqa-tailor.netlify.app/" target="_blank" class="image fit"><img src="images/portfolio-pic-alsadeq-min.jpg" alt="al sadeqa"></a>
+										</div>
+										<!-- <div class="col-4 col-6-medium col-12-small">
 											<a href="#" class="image fit"><img src="images/pic02.jpg" alt=""></a>
 										</div>
 										<div class="col-4 col-6-medium col-12-small">
@@ -120,7 +132,7 @@
 										</div>
 										<div class="col-4 col-6-medium col-12-small">
 											<a href="#" class="image fit"><img src="images/pic12.jpg" alt=""></a>
-										</div>
+										</div> -->
 									</div>
 								</section>
 							</article>
